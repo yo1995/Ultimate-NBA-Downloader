@@ -23,8 +23,11 @@ Getting into collegial study, I have better skills such as scripting. From very 
 The project expands as follows:
 
 BR-py3.py - main
+
 	|-------- links_temp-------- get_article_links
+
 			|-------- get_picture_links
+
 			|-------- check_n_save_pictures
 
 - The main function handles data file read/write, calls sub-modules and manage threading and multiprocessing.
@@ -32,7 +35,7 @@ BR-py3.py - main
 - The get_picture_links module read from article links and gather the picture srcs from it.
 - The check_n_save_pictures module check and download the pictures.
 
-More will be described in my [blog post]().
+More will be described in my [blog post](https://yo1995.github.io/coding/Ultimate-NBA-Downloader/).
 
 ### sparkling points
 
@@ -59,11 +62,15 @@ More will be described in my [blog post]().
 2. for one-time usage, you should primarily change the variables in section [0. global variables definition]. a typical usage is:
 
 	BR_save_path = 'your path'
+
 	from_page_number = 1
+
 	to_page_number = 360
 
 	also, for the csv databases, you could refer to the template file provided. 
+
 	for links_all.csv, the first time you run it, you need to add the article id of the article where you want to stop at.
+	
 	for pics_all.csv, you do not need to add anything.
 
 3. for periodical crawling, you can set a lower to_page_number and also lower processes amount.
