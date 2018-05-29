@@ -63,7 +63,3 @@ def send_mail(sender_address, sender_password, receiver_address, smtp_server, su
     except smtplib.SMTPException:
         print("Error: 邮件发送失败")
         logger.error("邮件发送失败。")
-
-
-# send_mail()
-

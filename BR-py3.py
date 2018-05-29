@@ -54,7 +54,7 @@ def main():
     picture_links_all_filename = 'pics_all'
     file_length_threshold = 1000
     picture_download_timeout = 30  # in seconds, 30 in GFW should be ok
-    BR_save_path = 'C:/Users/yo-ch/Desktop/BR'
+    BR_save_path = 'C:/Users/[admin]/Desktop/BR'
     if not os.path.exists(BR_save_path):
         os.makedirs(BR_save_path)
     # if you want to exclude pictures with dimensions less than 1280*800, use True. otherwise False.

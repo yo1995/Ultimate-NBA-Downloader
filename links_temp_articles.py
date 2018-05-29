@@ -82,5 +82,3 @@ def links_temp(current_page, last_key_0, last_key_1, links_per_page):
     print(links_list)
     return keys_list, titles_list, links_list, job_done_flag
 
-
-# links_temp(1, '2778193', '2778235', 25)

@@ -123,8 +123,3 @@ def check_n_save_pictures(article_key, picture_link, picture_index, path, ignore
             picture.write(response.content)
         # return True means the pic is successfully downloaded.
         return True
-
-
-# link = 'https://img.bleacherreport.net/img/images/photos/003/675/892/hi-res-d6fc4b2ff42337feec5364af0e57ff54_crop_north.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top'
-# check_n_save_pictures('0000000', link, 1, 'C:/Users/yo-ch/Desktop/Downloader_BR')
-# check_n_save_pictures('https://img.bleacherreport.net/cms/media/image/f6/20/44/fc/7fcb/49d5/82e8/bc6436f488e4/crop_exact_494154975.jpg?h=192&w=288')

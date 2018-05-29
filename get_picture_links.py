@@ -56,15 +56,3 @@ def get_picture_links(single_article_key, single_article_title, single_article_l
     # print(links_count)
     return picture_links_list, picture_links_count, single_article_key, single_article_title
 
-
-#
-
-
-# page_link = 'http://bleacherreport.com/articles/2711216-lakers-news-charles-oakley-says-la-wouldnt-make-playoffs-with-carmelo-anthony' # 21
-# page_link = 'http://bleacherreport.com/articles/2777880-draymond-green-says-warriors-will-be-back-here-for-game-7' # 1
-# page_link = 'http://bleacherreport.com/articles/2777307-every-teams-realistic-dream-signing-in-2018-nba-free-agency#slide0' # 31
-
-
-# page_link = 'http://bleacherreport.com/articles/2777853-postgame-sound-from-warriors-vs-rockets-game-5'
-# get_picture_links(page_link)
-
