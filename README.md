@@ -1,5 +1,7 @@
 ![cover](https://raw.githubusercontent.com/yo1995/Ultimate-NBA-Downloader/master/features-gif/poster.jpg)
 
+180917 There are some pool parallel issues in the code, with shared_list and .get() block. If I have time later I'll fix them.
+
 ## Description
 
 The Ultimate NBA Downloader is a project that consists of multiple techniques which I have used for previous Python-based internet crawlers. It is a well-structured, minimally-adapted, fully packed and tested package that specifically constructed for a certain NBA related website.
@@ -54,6 +56,12 @@ More will be described in my [blog post](https://yo1995.github.io/coding/Ultimat
 - added first version. works fine with mine.
 
 - global variables are written at the header of main function.
+
+### 20180608 v1.0.1
+
+- fixed links which exist but returns 404 :http://bleacherreport.com/articles/2749575-chris-paul-becomes-first-player-with-28-points-8-assists-and-7-steals-vs-spurs - at page 191 when it came to me
+
+
 
 ## Usage
 
